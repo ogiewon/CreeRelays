@@ -69,7 +69,7 @@ CreeRelays requires:
 
 ##CreeRelays Usage
 - This is essentially a proof of concept example.  You can control up to 8 relays with this example as-is.  My intention was to share this project as an inspiration for others to kick-start any other efforts that desire a very low cost way to control real-world devices from SmartThings.
-- Pressing any of the "Relay 1" through "Relay 8" tiles on your phone will "turn on the bulb and set the dim level to 1 through 8 respectively."
+- Pressing any of the "Relay 1" through "Relay 8" tiles on your phone will "turn on the bulb and set the dim level to 1 through 8 respectively.
 - Based on the dim level selected, the arduino sketch will turn on a corresponding digital output (which could be conncted to a relay.)
 - Pressing a different "Relay n" tile will turn off the previous output, and turn on the new output
 - Pressing the main "Lightbulb" tile will either turn on or turn off the output which corresponds to the current Dim Level
