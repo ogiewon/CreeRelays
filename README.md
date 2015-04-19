@@ -1,6 +1,8 @@
 ## CreeRelays
 SmartThings + Cree Connected LED Bulb Zigbee board  + Arduino Nano = Cheap Home Automation Potential
 
+![screenshot](https://cloud.githubusercontent.com/assets/5206084/7218055/286858f2-e625-11e4-9c2b-8b85c7f28f00.PNG)
+
 Please note that this project results in a device that is essentially a one way device.  SmartThings sends commands to the Arduino via a scavenged Cree Connected LED bulb's Zigbee board.  There is no way for the Zigbee board to send updates to SmartThings, unless a REFRESH command is sent from ST.  The Arduino has no way to tell the Zigbee board the status of anything!  The Zigbee board is capable of sending two signals to the Arduino:
 - An On/Off signal (i.e. bulb on or off)
 - A PWM Signal (i.e. bulb dim level)
@@ -33,6 +35,10 @@ CreeRelays requires:
   - Arduino Pin 7 to Relay #6
   - Arduino Pin 8 to Relay #7
   - Arduino Pin 9 to Relay #8
+
+![screenshot](https://cloud.githubusercontent.com/assets/5206084/7218058/35927de6-e625-11e4-8915-0ff51ccc8f30.JPG)
+![screenshot](https://cloud.githubusercontent.com/assets/5206084/7218060/3bc030aa-e625-11e4-81d7-e59e2e75df42.JPG)
+
 
 ##CreeRelays Arduino Setup Instructions
 - Join your Cree Connected Bulb to your hub using your phone's SmartThings App BEFORE disassembling the bulb!!!
