@@ -1,5 +1,5 @@
 ## CreeRelays
-SmartThings + Cree Connected LED Bulb Zigbee board  + Arduino Nano = Cheap Home Automation Potential!!!
+SmartThings + Cree Connected LED Bulb Zigbee board  + Arduino Nano = Cheap Home Automation Potential!
 
 ![screenshot](https://cloud.githubusercontent.com/assets/5206084/7218055/286858f2-e625-11e4-9c2b-8b85c7f28f00.PNG)
 
